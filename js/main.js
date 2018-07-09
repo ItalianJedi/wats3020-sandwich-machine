@@ -77,10 +77,10 @@ let receiptTemplate = `
     <p class="text-right">Tax: $${orderTax.toFixed(2)}</p>
     <p class="text-right">--------</p>
     <p class="text-right">Total: $${totalPrice.toFixed(2)}</p>
-    <p class="text-left">Suggested Tip</p
+    <p class="text-left">Suggested Tip</p>
     <p class="text-left">15% = $${total15Tip.toFixed(2)}</p>  
     <p class="text-left">20% = $${total20Tip.toFixed(2)}</p> 
-    <p class-"text-left">25% = $${total25Tip.toFixed(2.5)}</p>
+    <p class-"text-left">25% = $${total25Tip.toFixed(2)}</p>
 `
 
 
