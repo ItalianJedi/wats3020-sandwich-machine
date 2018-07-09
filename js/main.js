@@ -38,18 +38,22 @@ let meatArray = meatOrder.split(',');
 let toppingArray = toppingOrder.split(',');
 let condimentArray = condimentOrder.split(',');
 
+// Prompt user to add meat, toppings, and condiments
 
 let meatCost = meatArray.length * prices.meat;
 let toppingCost = toppingArray.length * prices.topping;
 let condimentCost = condimentArray.length * prices.condiment;
 
+// Total price of the sandwich with bread, meat, toppings, and condiments
 
 let subtotal = prices.sandwich + meatCost + toppingCost + condimentCost;
 
+// Washington State tax
 
 let waStateTaxRate = 0.065;
 let orderTax = subtotal * waStateTaxRate;
 
+// Adding tipping at the end of the receipt
 
 let totalPrice = subtotal + orderTax;
 
